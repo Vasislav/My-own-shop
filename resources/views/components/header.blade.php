@@ -10,6 +10,12 @@
         <li class="nav-item">
           <a class="nav-link" href="{{ route('products.index') }}">Products</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ route('contact.index') }}">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ route('questions.index') }}">F&Q</a>
+        </li>
         <!-- Pokud je uživatel přihlášen -->
         @auth
           <li class="nav-item">

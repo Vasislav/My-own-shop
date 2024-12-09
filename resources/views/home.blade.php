@@ -22,11 +22,11 @@
         <h2 class="text-3xl font-semibold">Proč nakupovat u nás?</h2>
         <p class="mt-4 text-lg text-gray-700">Nabízíme nejlepší produkty za nejlepší ceny!</p>
         <div class="mt-6 flex flex-wrap justify-center gap-6">
-            <div class="bg-white shadow-md rounded-lg p-6 max-w-xs mr-3">
+            <div class="bg-white shadow-md rounded-lg p-6 max-w-xs">
                 <h3 class="text-lg font-bold">Rychlá Doprava</h3>
                 <p class="mt-2">Zaručujeme rychlé dodání vašich objednávek.</p>
             </div>
-            <div class="bg-white shadow-md rounded-lg p-6 max-w-xs mr-3">
+            <div class="bg-white shadow-md rounded-lg p-6 max-w-xs">
                 <h3 class="text-lg font-bold">Kvalitní Produkty</h3>
                 <p class="mt-2">Naše produkty procházejí důkladným výběrem kvality.</p>
             </div>
