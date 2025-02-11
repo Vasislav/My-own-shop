@@ -63,6 +63,7 @@
                             {{ $product->description }}
                         </p>
                         <p class="font-bold text-lg text-blue-600 mb-4 text-center">Cena: ${{ $product->price }}</p>
+                        <p class="font-bold text-lg text-blue-600 mb-4 text-center">Skladem: {{ $product->in_stock }}ks </p>
                         <a href="{{ route('products.show', $product->id) }}" class="btn btn-primary inline-block px-6 py-2 text-white bg-blue-500 rounded-md hover:bg-blue-600 transition align-middle pos">Zobrazit detaily</a>
                     </div>
                 </div>

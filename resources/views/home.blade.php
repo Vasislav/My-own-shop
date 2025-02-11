@@ -1,5 +1,7 @@
 @extends('layouts.app')
-
+<link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.5.3/dist/sweetalert2.min.css" rel="stylesheet">
+<!-- SweetAlert2 JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.5.3/dist/sweetalert2.min.js"></script>
 @section('content')
     <!-- Hero Section with Image and Gradient -->
     <div class="relative h-screen">
@@ -43,6 +45,22 @@
                 <h3 class="text-lg font-bold">Zákaznická Podpora</h3>
                 <p class="mt-2">Jsme tu pro vás, abychom zodpověděli všechny vaše dotazy.</p>
             </div>
+            <style>
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .animate-fade-in {
+        animation: fadeIn 0.6s ease-out;
+    }
+</style>
         </div>
     </div> 
 
